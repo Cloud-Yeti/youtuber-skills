@@ -105,20 +105,20 @@ You don't have a channel. You have a viewer. Everything starts with what they wa
 New project:
 
 ```bash
-curl -o CLAUDE.md https://raw.githubusercontent.com/Cloud-Yeti/youtuber-skills/main/CLAUDE.md
+curl -o CLAUDE.md https://raw.githubusercontent.com/ravsau/youtuber-skills/main/CLAUDE.md
 ```
 
 Existing project (append):
 
 ```bash
 echo "" >> CLAUDE.md
-curl https://raw.githubusercontent.com/Cloud-Yeti/youtuber-skills/main/CLAUDE.md >> CLAUDE.md
+curl https://raw.githubusercontent.com/ravsau/youtuber-skills/main/CLAUDE.md >> CLAUDE.md
 ```
 
 **Option B: Full skills (all 12)**
 
 ```bash
-git clone https://github.com/Cloud-Yeti/youtuber-skills.git
+git clone https://github.com/ravsau/youtuber-skills.git
 for skill in youtuber-skills/skills/*/; do
   name=$(basename "$skill")
   ln -sf "$(pwd)/$skill" "$HOME/.claude/skills/$name"
