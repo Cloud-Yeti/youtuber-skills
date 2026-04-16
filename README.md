@@ -1,6 +1,6 @@
-# youtube-creator-skills
+# youtuber-skills
 
-Claude Code skills for YouTube creators. Research-backed techniques from MrBeast, Paddy Galloway, George Blackman, Jake Thomas, Ali Abdaal, Roberto Blake, Derral Eves, and others — turned into runnable skills.
+Claude Code skills for YouTubers. Research-backed techniques from MrBeast, Paddy Galloway, George Blackman, Jake Thomas, Ali Abdaal, Roberto Blake, Derral Eves, and others — turned into runnable skills.
 
 Each skill is one `SKILL.md` file. Install any skill, invoke it, and get actionable output in seconds.
 
@@ -25,10 +25,10 @@ Each skill is one `SKILL.md` file. Install any skill, invoke it, and get actiona
 
 ```bash
 # Clone the repo
-git clone https://github.com/Cloud-Yeti/youtube-creator-skills.git
+git clone https://github.com/Cloud-Yeti/youtuber-skills.git
 
 # Symlink all skills to Claude Code
-for skill in youtube-creator-skills/*/; do
+for skill in youtuber-skills/*/; do
   name=$(basename "$skill")
   ln -sf "$(pwd)/$skill" "$HOME/.claude/skills/$name"
 done
@@ -37,7 +37,7 @@ done
 Or install a single skill:
 
 ```bash
-ln -sf "$(pwd)/youtube-creator-skills/title-formula" "$HOME/.claude/skills/title-formula"
+ln -sf "$(pwd)/youtuber-skills/title-formula" "$HOME/.claude/skills/title-formula"
 ```
 
 ## Usage
