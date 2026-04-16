@@ -178,7 +178,7 @@ Built from deep research across 10+ creators and strategists. Full notes in [RES
 
 ## Who Made This
 
-Built by [CloudYeti](https://cloudyeti.io). 13x AWS certified, ex-Amazon, 15K+ YouTube subscribers. These skills encode the playbook we use on our own channel.
+Built by [Saurav](https://github.com/ravsau), who runs the [CloudYeti](https://youtube.com/@CloudYeti) YouTube channel (15K+ subs). These skills encode the playbook used to grow that channel.
 
 ## License
 
